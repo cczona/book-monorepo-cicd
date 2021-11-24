@@ -109,7 +109,7 @@ Most of us, however, don’t have Airbnb's resources. So, what can we do? Fortun
 
 -   [Bazel](https://bazel.build/): released by Google and based partly on their homegrown build system (Blaze). Bazel supports many languages and is capable of building and testing at scale.
 -   [Buck](https://buck.build/): Facebook’s open-source fast build system. Supports differential builds on many languages and platforms.
--   [Pants](http://www.pantsbuild.org/): The Pants build system was created in collaboration with Twitter and Foursquare. For the moment, it supports only Python, but more languages are on the way.
+-   [Pants](http://www.pantsbuild.org/): Pants 1 was created as a collaboration between Twitter and Foursquare. Pants 2 has been rewritten from the ground up in Python and Rust by lead sponsor Toolchin. It supports Python, Shell, Go and Protobuf. Java and Scala support are in progress, with [more language support on the way](https://www.pantsbuild.org/page/language-support). Pants 2's ergonomic design principles center on hermeticity, ease-of-use, speed, scalability, and adaptability.
 -   [RushJS](https://rushjs.io/): Microsoft’s scalable monorepo manager for JavaScript.
 
 Monorepos seem to be getting more attention, particularly in JavaScript, as shown by these projects:
